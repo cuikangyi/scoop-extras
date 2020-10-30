@@ -14,6 +14,7 @@
         }
     },
     "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse",
+    "persist": "data",
     "shortcuts": [
         [
             "SwitchHosts!.exe",
